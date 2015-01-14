@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout  
+  xmlns:android="http://schemas.android.com/apk/res/android"  
+  android:layout_width="match_parent"  
+  android:layout_height="match_parent"> 
+   <LinearLayout
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal" 
+     android:descendantFocusability="blocksDescendants">
+	   <TextView
+	     android:id="@+id/tv_barcode"
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:layout_weight="1" 
+	     android:layout_gravity="center"
+	     android:textSize="20dp"/>
+	   <TextView
+	     android:id="@+id/tv_bookName"
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:layout_weight="1" 
+	     android:layout_gravity="center"
+	     android:textSize="20dp"/>
+	   <TextView
+	     android:id="@+id/tv_bookType"
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:layout_weight="1" 
+	     android:layout_gravity="center"
+	     android:textSize="20dp"/>
+     <ImageView android:id="@+id/iv_bookPhoto" 
+        android:layout_width="50dp" 
+        android:layout_height="58dp" 
+        android:src="@drawable/ml_default_image" 
+      /> 
+  </LinearLayout>
+</LinearLayout>

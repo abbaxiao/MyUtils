@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/list_bg" 
+>
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stretchColumns="1" >
+        <TableRow > 
+            <TextView
+                android:id="@+id/TV_readerNo"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="读者编号"
+                android:textColor="#0000ff" /> 
+            <TextView
+                android:id="@+id/TV_readerType"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="读者类型"
+                android:textColor="#0000ff" /> 
+            <TextView
+                android:id="@+id/TV_readerName"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="姓名"
+                android:textColor="#0000ff" /> 
+            <TextView
+                android:id="@+id/TV_photo"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:text="读者头像"
+                android:textColor="#0000ff" /> 
+        </TableRow>
+        <TableRow android:gravity="right" > 
+        </TableRow> 
+         <ListView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/h_list_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" /> 
+    </TableLayout>  
+</RelativeLayout>
